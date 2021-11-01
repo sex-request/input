@@ -1,0 +1,6 @@
+{
+  "internal": true,
+  "main": "../lib/Text/index.js",
+  "module": "../es/Text/index.js",
+  "types": "../types/Text/index.d.ts"
+}

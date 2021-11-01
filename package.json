@@ -1,6 +1,6 @@
 {
   "name": "@sex-request/input",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Input components",
   "author": "juunini",
   "license": "MIT",
@@ -12,12 +12,14 @@
   "module": "es/index.js",
   "sideEffects": [
     "es/index.js",
-    "lib/index.js"
+    "es/Text/index.js",
+    "lib/index.js",
+    "lib/Text/index.js"
   ],
   "scripts": {
     "test": "is-ci \"test:ci\" \"test:dev\"",
     "test:dev": "npm run test:types && npm run test:eslint && jest --watch",
-    "test:ci": "npm run test:types && npm run test:eslint && jest",
+    "test:ci": "npm run test:types && npm run test:eslint && jest --coverage",
     "test:coverage": "yarn test:ci; open coverage/lcov-report/index.html",
     "test:types": "tsc",
     "test:eslint": "eslint --ext .ts,.tsx ./src",
@@ -54,6 +56,7 @@
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
     "@babel/plugin-transform-runtime": "^7.16.0",
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",

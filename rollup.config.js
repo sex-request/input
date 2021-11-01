@@ -17,6 +17,7 @@ const globals = {
 
 const inputSrcs = [
   ['src/index.ts', 'Input', 'input'],
+  ['src/Text/index.tsx', 'InputText', 'input-text'],
 ]
 
 const extensions = ['.js', '.jsx', '.es6', '.es', '.mjs', '.ts', '.tsx']
