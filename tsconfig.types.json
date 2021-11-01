@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./types",
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "paths": {
+      // "input": ["./src/index.ts"]
+    }
+  },
+  "files": [
+    // "./src/index.ts",
+    // and more export files
+  ],
+  "exclude": ["./src/**/*"]
+}
