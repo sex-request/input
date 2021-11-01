@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@babel/cli", "virtual:39ee52d25b09bc4f9e227d87253a83594ed86e950e299bbbc08576d63530ec192e2a7c5cebeaf8cfd473ebbc0cdd102c2219bf91501947dd59da480609033605#npm:7.16.0"],
             ["@babel/core", "npm:7.16.0"],
+            ["@babel/plugin-transform-modules-commonjs", "virtual:b385104abb5afce85650b32a1be3b252cd79bbac0c4c3255432e9da852eae6adf60a9eee7cee3ac7c0b639f0c7cf85ed5472e9f284572c5780cf11b32cc6f80f#npm:7.16.0"],
             ["@babel/plugin-transform-runtime", "virtual:39ee52d25b09bc4f9e227d87253a83594ed86e950e299bbbc08576d63530ec192e2a7c5cebeaf8cfd473ebbc0cdd102c2219bf91501947dd59da480609033605#npm:7.16.0"],
             ["@babel/preset-env", "virtual:5f70c2975cfa106cea696cd555df95944ef62ddab746e653a024193c71b034298a0baddf0354e6a742a4f597c6e18ee62731a9d7647f57a7e0ff6935435a7114#npm:7.16.0"],
             ["@babel/preset-react", "virtual:5f70c2975cfa106cea696cd555df95944ef62ddab746e653a024193c71b034298a0baddf0354e6a742a4f597c6e18ee62731a9d7647f57a7e0ff6935435a7114#npm:7.16.0"],
@@ -4161,6 +4162,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@sex-request/input", "workspace:."],
             ["@babel/cli", "virtual:39ee52d25b09bc4f9e227d87253a83594ed86e950e299bbbc08576d63530ec192e2a7c5cebeaf8cfd473ebbc0cdd102c2219bf91501947dd59da480609033605#npm:7.16.0"],
             ["@babel/core", "npm:7.16.0"],
+            ["@babel/plugin-transform-modules-commonjs", "virtual:b385104abb5afce85650b32a1be3b252cd79bbac0c4c3255432e9da852eae6adf60a9eee7cee3ac7c0b639f0c7cf85ed5472e9f284572c5780cf11b32cc6f80f#npm:7.16.0"],
             ["@babel/plugin-transform-runtime", "virtual:39ee52d25b09bc4f9e227d87253a83594ed86e950e299bbbc08576d63530ec192e2a7c5cebeaf8cfd473ebbc0cdd102c2219bf91501947dd59da480609033605#npm:7.16.0"],
             ["@babel/preset-env", "virtual:5f70c2975cfa106cea696cd555df95944ef62ddab746e653a024193c71b034298a0baddf0354e6a742a4f597c6e18ee62731a9d7647f57a7e0ff6935435a7114#npm:7.16.0"],
             ["@babel/preset-react", "virtual:5f70c2975cfa106cea696cd555df95944ef62ddab746e653a024193c71b034298a0baddf0354e6a742a4f597c6e18ee62731a9d7647f57a7e0ff6935435a7114#npm:7.16.0"],

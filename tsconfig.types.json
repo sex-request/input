@@ -6,12 +6,12 @@
     "emitDeclarationOnly": true,
     "noEmit": false,
     "paths": {
-      // "input": ["./src/index.ts"]
+      "input": ["./src/index.ts"]
     }
   },
   "files": [
-    // "./src/index.ts",
-    // and more export files
+    "./src/index.ts",
+    "./src/Text/index.tsx",
   ],
   "exclude": ["./src/**/*"]
 }

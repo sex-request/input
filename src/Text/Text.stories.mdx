@@ -1,0 +1,36 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs';
+
+import Text from '.';
+
+<Meta
+  title="Text"
+  component={Text}
+/>
+
+export const Template = (args) => <section style={{ width: '10rem' }}><Text {...args} /></section>;
+
+# enabled
+
+<Canvas>
+  <Story
+    name="enabled"
+    args={{
+      disabled: false,
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+# disabled
+
+<Canvas>
+  <Story
+    name="disable"
+    args={{
+      disabled: true,
+    }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
